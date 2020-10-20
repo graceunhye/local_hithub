@@ -1,0 +1,193 @@
+﻿<! DOCTYPE html>
+<html>
+	<head>
+		<title>메인화면</title>
+		<style>
+			main{
+				margin: 200px 0 0 100px; 
+				padding: 0 0 50px 45px;
+				font-size: 30px;
+			}
+			
+			nav{
+				float: left;
+			}
+			
+			nav>ul>li{
+				list-style-type:none;
+				border: 1px solid black;
+				width: 300px;
+				height: 40px;
+				text-align: center;
+				padding-top: 20px;
+				font-size: 20px;	
+			}
+			
+			nav>ul>li:hover{
+				background-color: #eeeeee;
+				font-weight: bold;
+				font-size: 25px;
+			}
+			
+			section{
+				float: right;
+				margin: 20px 200px 0 0;
+			}
+
+			.sec-mid-top{
+				float: right;
+				margin-bottom: 20px;
+			}
+			
+			.sec-bot{
+				margin-top: 20px;
+				float: right;
+			}
+			
+			table,th,td{
+				clear: both;
+				border: 1px solid black;
+				line-height: 40px;
+			}
+			
+			.table-num{
+				width: 40px;
+			}
+			
+			.table-title{
+				width: 400px;
+			}
+			
+			.table-writer{
+				width: 100px;
+			}
+			
+			.table-when{
+				width: 110px;
+			}
+			
+			.sec-mid-top-title{
+				float: left;
+				font-weight: bold;
+				font-size: 20px;
+			}
+			
+			small{
+				color: red;
+				margin-left: 100px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<main>
+			쇼핑몰
+		</main>
+		<small>10번째 게시물만 보기 가능합니다.</small>
+		<hr>
+		<nav>
+			<ul>
+				<li>Q & A</li>
+				<li>NEW</li>
+				<li>BEST 100</li>
+			</ul>
+		</nav>
+		<section>
+			<article class="sec-mid">
+				<div class="sec-mid-top">
+					<input type="text" class="search-box" value="입력하세요." alt="입력창"></input>
+					<input type="button" class="search-button" value="검색" alt="검색버튼"></input>
+				</div>
+				<div class="sec-mid-top-title">
+					[Q & A]
+				</div>
+				<table>
+					<thead>
+						<tr>
+							<th class="table-num">순서</th>
+							<th class="table-title">제목</th>
+							<th class="table-writer">작성자</th>
+							<th class="table-when">작성일자</th>
+							<th class="table-visit">조회수</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>10</td>
+							<td><a href="글보기.html">홈페이지가 너무 초라해요.;;</a></td>
+							<td>송은혜</td>
+							<td>2020.10.15</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td><a href="">사이즈가 안 맞아요 ㅠㅠ</a></td>
+							<td>강다니엘</td>
+							<td>2020.10.14</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td><a href="">해외 배송 가능한가요?</a></td>
+							<td>리쯔웨이</td>
+							<td>2020.10.14</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td><a href="">협찬해주세요.</a></td>
+							<td>황위쉬안</td>
+							<td>2020.10.14</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td><a href="">바지 길이가 너무 짧아요ㅠ</a></td>
+							<td>시백우</td>
+							<td>2020.10.13</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td><a href="">노란색 니트 언제 입고돼요?</a></td>
+							<td>허광한</td>
+							<td>2020.10.13</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td><a href="">배송 언제돼요..너무 안 와요..</a></td>
+							<td>가가연</td>
+							<td>2020.10.13</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td><a href="">포인트 어떻게 써요?</a></td>
+							<td>배수지</td>
+							<td>2020.10.13</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="">빨간색 원피스 입고해주세요 ㅠㅠ</a></td>
+							<td>바이바이허</td>
+							<td>2020.10.13</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href="">가을 니트 언제 입고되나용?ㅎㅎ</a></td>
+							<td>수지</td>
+							<td>2020.10.12</td>
+							<td>0</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>	
+			<article class="sec-bot">
+				<a href="글쓰기.html"><input type="button" class="add-button" value="등록" alt="등록버튼"></input></a>
+			</article>
+		</section>
+	</body>
+</html>
